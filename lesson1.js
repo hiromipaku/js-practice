@@ -11,6 +11,7 @@ fruits.pop();
 fruits.shift();
 
 // unshiftで先頭に追加
-fruits.unshift('melon');
+fruits.unshift('pineapple');
 
-console.log(fruits); // 出力: ['melon', 'banana', 'orange']
+// 出力
+console.log(fruits);
