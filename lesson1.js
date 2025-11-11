@@ -1,17 +1,18 @@
 // 配列を作る
-let fruits = ['apple', 'banana', 'orange'];
+let animals = ['dog', 'cat', 'bird', 'lion'];
 
 // pushで追加
-fruits.push('grape');
+animals.push('panda');
 
 // popで最後の要素削除
-fruits.pop();
+animals.pop();
 
 // shiftで先頭削除
-fruits.shift();
+animals.shift();
+console.log(animals);
 
 // unshiftで先頭に追加
-fruits.unshift('pineapple');
+animals.unshift('bear');
 
 // 出力
-console.log(fruits);
+console.log(animals);
