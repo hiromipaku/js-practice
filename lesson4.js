@@ -1,4 +1,5 @@
 // 関数宣言 Hello + Hiromi!
+console.log(greet('Yama'))
 function greet(name) {
     return `Hello, + ${name}!`;
 }
